@@ -1,0 +1,20 @@
+﻿<UserControl x:Class="MIRIAWeb.Applications.Kinect.KinectControl"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:miria="clr-namespace:MIRIA.UIKit;assembly=MIRIA"
+    xmlns:kinect="clr-namespace:MIRIA.Interaction.NiteKinect;assembly=MIRIA"
+    >
+    
+    <Grid x:Name="LayoutRoot" Width="Auto" Height="Auto">
+
+        <kinect:UserSkelton x:Name="Skelton" VerticalAlignment="Center" HorizontalAlignment="Center"></kinect:UserSkelton>
+
+
+        <miria:TButton x:Name="ButtonClose" IsDragEnabled="False" HorizontalAlignment="Right" VerticalAlignment="Bottom" Opacity="0.75" Width="48" Height="48" Margin="30,30,30,30">
+            <Image Source="../../../images/buttons/close.png" Width="48" />
+        </miria:TButton>
+
+    </Grid>
+</UserControl>

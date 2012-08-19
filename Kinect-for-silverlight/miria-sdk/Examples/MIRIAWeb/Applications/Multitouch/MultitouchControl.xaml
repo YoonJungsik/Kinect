@@ -1,0 +1,13 @@
+<UserControl xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
+             x:Class="MoonLightTest.MultitouchControl"
+>
+	<Border BorderThickness="2" BorderBrush="White" CornerRadius="10" Width="Auto" Height="Auto" Margin="40" Background="Black">
+		<StackPanel Width="Auto" Height="Auto" Orientation="Vertical">
+			<Canvas x:Name="Surface" Canvas.ZIndex="10"></Canvas>
+			<TextBlock FontSize="24" Foreground="White">Multitouch TUIO</TextBlock>
+			<Image Stretch="Uniform" Width="Auto" Opacity="0.75" Canvas.Top="70" Source="http://www.meanburrito.net/wp-content/uploads/2009/07/reactable_13_big.jpg"></Image>
+		</StackPanel>
+	</Border>
+</UserControl>
+

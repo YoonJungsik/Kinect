@@ -1,0 +1,7 @@
+<OutOfBrowserSettings ShortName="Applicazione MIRIAWeb" EnableGPUAcceleration="True" ShowInstallMenuItem="True">
+  <OutOfBrowserSettings.Blurb>Applicazione MIRIAWeb sul desktop, a casa, in ufficio o in viaggio.</OutOfBrowserSettings.Blurb>
+  <OutOfBrowserSettings.WindowSettings>
+    <WindowSettings Title="Applicazione MIRIAWeb" />
+  </OutOfBrowserSettings.WindowSettings>
+  <OutOfBrowserSettings.Icons />
+</OutOfBrowserSettings>

@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Class Name="KinectForSilverlight.KinectSensor">
+    <Position X="5.5" Y="5.5" Width="4.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAQIgACACQAAgAAAAQAABAEABCEQAIAAQAARLAAA=</HashCode>
+      <FileName>KinectSensor.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="SkeletonStream" />
+      <Property Name="ColorStream" />
+      <Property Name="DepthStream" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="KinectForSilverlight.SkeletonStream">
+    <Position X="3.25" Y="12" Width="7.75" />
+    <TypeIdentifier>
+      <HashCode>AAAGAhAAABEAAAAAEAGACAAAgAAQAAAAAAAgBQCCAAA=</HashCode>
+      <FileName>SkeletonStream.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="SmoothParameters" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="KinectForSilverlight.ImageStream">
+    <Position X="1.5" Y="0.5" Width="11.25" />
+    <TypeIdentifier>
+      <HashCode>QAACIAAAABAAAEACAAAACAAAAQAQAAAAAAAAAAAAQAA=</HashCode>
+      <FileName>ImageStream.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="KinectForSilverlight.TransformSmoothParameters">
+    <Position X="3.5" Y="17.5" Width="7.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAQAAAAAkAIAAAAAAAAAAAAAAAAAAABAAAAEAAA=</HashCode>
+      <FileName>SkeletonFrame.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

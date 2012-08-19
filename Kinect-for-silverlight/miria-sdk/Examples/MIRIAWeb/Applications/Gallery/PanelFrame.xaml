@@ -1,0 +1,11 @@
+﻿<UserControl x:Class="MIRIAWeb.Applications.FlickrGallery.PanelFrame"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
+    xmlns:miria="clr-namespace:MIRIA.UIKit;assembly=MIRIA_UI"
+    >
+    <Border Height="582">
+        <Border Height="580" BorderBrush="Black" BorderThickness="2" Background="WhiteSmoke">
+            <Image x:Name="Image" Width="580" Height="580" Stretch="UniformToFill" Source=""></Image>
+        </Border>
+    </Border>
+</UserControl>

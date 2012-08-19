@@ -1,0 +1,5 @@
+MIGLibLight is part of monoMIG project available at
+
+http://sourceforge.net/projects/mono-mig
+
+G.

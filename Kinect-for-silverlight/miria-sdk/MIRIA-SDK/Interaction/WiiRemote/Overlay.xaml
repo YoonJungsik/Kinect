@@ -1,0 +1,13 @@
+﻿<UserControl x:Class="MIRIA.Interaction.WiiRemote.Overlay"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:wii="clr-namespace:MIRIA.Interaction.WiiRemote"
+    xmlns:miria="clr-namespace:MIRIA.UIKit"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    >
+    
+    <Canvas x:Name="LayoutRoot">
+        <wii:RemotePointer x:Name="Hand" Visibility="Collapsed" Canvas.ZIndex="10"></wii:RemotePointer>
+    </Canvas>
+</UserControl>

@@ -1,0 +1,24 @@
+﻿<UserControl x:Class="MIRIAWeb.Applications.MultiScaleImage.Image"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
+    xmlns:miria="clr-namespace:MIRIA.UIKit;assembly=MIRIA"
+    SizeChanged="UserControl_SizeChanged" Width="Auto" Height="Auto">
+    <Grid x:Name="LayoutRoot" Background="Black">
+
+        <miria:TMultiScaleImage x:Name="TouchScaleImage" />
+
+        <miria:TButton x:Name="ButtonClose" IsDragEnabled="False" HorizontalAlignment="Right" VerticalAlignment="Bottom" Opacity="0.75" Width="48" Height="48" Margin="30,30,30,30">
+            <Image Source="../../../images/buttons/close.png" Width="48" />
+        </miria:TButton>
+
+
+        <miria:TButton x:Name="ButtonZoomIn" Tapped="ButtonZoomIn_Tapped" IsDragEnabled="False" HorizontalAlignment="Right" VerticalAlignment="Bottom" Opacity="0.75" Width="48" Height="48" Margin="30,30,200,30">
+            <Image Source="../../../images/buttons/plus.png" Width="48" />
+        </miria:TButton>
+
+        <miria:TButton x:Name="ButtonZoomOut" Tapped="ButtonZoomOut_Tapped" IsDragEnabled="False" HorizontalAlignment="Right" VerticalAlignment="Bottom" Opacity="0.75" Width="48" Height="48" Margin="30,30,140,30">
+            <Image Source="../../../images/buttons/minus.png" Width="48" />
+        </miria:TButton>
+
+    </Grid>
+</UserControl>
