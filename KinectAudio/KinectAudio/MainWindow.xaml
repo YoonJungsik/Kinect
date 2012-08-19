@@ -1,0 +1,11 @@
+﻿<Window x:Class="KinectAudio.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525" Closing="Window_Closing" Loaded="Window_Loaded">
+    <Grid>
+        <CheckBox Content="ノイズ抑制" Height="16" HorizontalAlignment="Left" Margin="24,40,0,0" Name="checkBox1" VerticalAlignment="Top" Checked="checkBox1_Checked" Unchecked="checkBox1_Unchecked" Foreground="Red" IsChecked="True" />
+        <RadioButton Content="None" Height="16" HorizontalAlignment="Left" Margin="24,62,0,0" Name="radioButton1" VerticalAlignment="Top" Checked="radioButton1_Checked" GroupName="EchoCancellationMode" Foreground="Red" />
+        <RadioButton Content="CancellationAndSuppression" Height="16" HorizontalAlignment="Left" Margin="24,84,0,0" Name="radioButton2" VerticalAlignment="Top" Checked="radioButton2_Checked" GroupName="EchoCancellationMode" Foreground="Red" IsChecked="True" />
+        <RadioButton Content="CancellationOnly" Height="16" HorizontalAlignment="Left" Margin="24,106,0,0" Name="radioButton3" VerticalAlignment="Top" Checked="radioButton3_Checked" GroupName="EchoCancellationMode" Foreground="Red" />
+    </Grid>
+</Window>
